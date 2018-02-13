@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Kotlin List Example</string>
+    <string name="app_name">Kotlin RecyclerView</string>
+    <string name="list_update">Update List</string>
 </resources>
