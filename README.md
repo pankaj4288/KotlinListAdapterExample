@@ -4,8 +4,7 @@ Library code can be found at [KotlinRecyclerLibrary](https://github.com/pankaj42
 
 ## Include in your gradle project
 ```
-compile 'com.pankaj.kotlin:KotlinRecyclerViewLibrary:1.0.0'
-implementation 'com.android.support:cardview-v7:26.1.0'
+implementation 'com.pankaj.kotlin:KotlinRecyclerViewLibrary:1.0.4'
 ```
 
 ## License

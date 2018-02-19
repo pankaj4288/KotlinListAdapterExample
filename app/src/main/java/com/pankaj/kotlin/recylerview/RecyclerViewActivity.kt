@@ -40,19 +40,26 @@ class RecyclerViewActivity : AppCompatActivity(), RecylerViewCallbackInterface {
         list.hasFixedSize()
 
         var obj = RecyclerViewManager()
+        obj.init(this, this, mLists)
         obj.setCardPadding(15, 15, 15, 15);
         obj.setCardMargin(15, 15, 15, 15);
-        obj.showListView(this, this, list, mLists)
+        obj.setCardCornerRadius(5.0f)
+        obj.showListView(this, list,2)
 
         updateList.setOnClickListener {
             mLists.clear()
-            mLists.add("Item 1 updated")
-            mLists.add("Item 2 updated")
-            mLists.add("Item 3 updated")
-            mLists.add("Item 4 updated")
-            mLists.add("Item 5 updated")
+            mLists.add("Item 1")
+            mLists.add("Item 2")
+            mLists.add("Item 3")
+            mLists.add("Item 4")
+            mLists.add("Item 5")
             mLists.add("Item 6")
-            obj.notifyDataSetChanged(mLists)
+            obj.setCardBackgroundColor(android.R.color.darker_gray)
+            obj.setCardCornerRadius(25.0f)
+            obj.updateList(mLists)
+            obj.setElevation(20.0f)
+            obj.setTextColor(R.color.primary_material_light)
+            obj.notifyUpdates();
         }
     }
 
