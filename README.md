@@ -2,9 +2,13 @@
 This project is an example RecyclerView on Kotlin
 Library code can be found at [KotlinRecyclerLibrary](https://github.com/pankaj4288/KotlinRecyclerViewLibrary)
 
+<a href="https://gph.is/2wSTylT"><img src="https://media.giphy.com/media/7vAhtu1FtTJR1Yo8VR/giphy.gif" width='275' height='428' /></a>
+<a href="https://gph.is/2oQIzEN"><img src="https://media.giphy.com/media/MUlsTKzqhNWKQ7XdOI/giphy.gif" width='275' height='428' /></a>
+
 ## Include in your gradle project
 ```
-implementation 'com.pankaj.kotlin:KotlinRecyclerViewLibrary:1.0.4'
+compile 'com.pankaj.kotlin:KotlinRecyclerViewLibrary:1.0.0'
+implementation 'com.android.support:cardview-v7:26.1.0'
 ```
 
 ## License
